@@ -3,9 +3,10 @@
 using ClassDemoTemplate;
 
 Worker worker = new Worker();
-worker.Start();
+//worker.Start();
 
 
 CommentWorker calc = new CommentWorker();
+calc.SomeMethod(4, "peter");
 
 
